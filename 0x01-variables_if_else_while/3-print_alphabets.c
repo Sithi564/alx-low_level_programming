@@ -3,9 +3,10 @@
  *main - Entry point
  *Return: 0
  */
-int main()
+int main(void)
 {
 	char letter = 'a', cLetter = 'A';
+	
 	while (letter <= 'z')
 	{
 		putchar(letter);
