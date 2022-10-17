@@ -1,11 +1,11 @@
-/*A Program that uses the characters, integers, and floating-point
-Data Types*/
 #include <stdio.h>
-int main()
+#include <stdlib.h>
+main()
 {
-    printf("I am learning th %c programming language\n", 'C');
-    printf("I have just completed chapter %d\n", 2);
-    printf("I am %.1f percent ready to move on ", 99.9);
-    printf("to the next chapter!\n");
-    return 0;
+        int x;
+        x = 1;
+        int y = 1;
+
+        printf("%d\n", x==y);
+        return (0);
 }
