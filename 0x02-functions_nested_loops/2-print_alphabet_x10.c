@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * Print_alphabet_x10 function
@@ -15,12 +15,11 @@ void print_alphabet_x10(void)
 		i = 'a';
 		while(i <= 'z')
 		{
-			putchar(i);
+			_putchar(i);
 			i++;
 		}
 		count++;
-		putchar(line);
+		_putchar(line);
 	}
 	
 }
-  
