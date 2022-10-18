@@ -1,7 +1,5 @@
 /**
  * _putchar - writes the character c to stdout
- * @c: The character to print
- *
  * Return: On success 1.
  * On error, -1 is returned, and error is set appropriately.
  */
@@ -31,7 +29,6 @@ int _islower(int c);
 
 /**
  * _isalpha - checks for alphabet character
- * @c: character to check
  * Return: 1 if lower or uppercase, 0 if not alphabet character
  */
 
