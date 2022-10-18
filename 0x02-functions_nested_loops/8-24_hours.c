@@ -1,21 +1,28 @@
-#include <stdio.h>
+#include "main.h"
 
+/**
+ * jack_bauer - print every minute of a day
+ * Description: print minutes 00:00 to 23:59
+ */
 
-
-int main(void)
+void jack_bauer(void)
 {
-	int hours = 1, minutes;
+	int hours = 0;
+	int min = 0;
 
-	while (hours < 10)
+	while (hours < 24)
 	{
-		int output = hours;
+		while (min < 60)
+		{
+			_putchar('0' + (hours / 10));
+			_putchar('0' + (hours % 10));
+			_putchar(':');
+			_putchar('0' + (min / 10));
+			_putchar('0' + (min % 10));
+			_putchar('\n');
+			min++;
+		}
+		min = 0;
 		hours++;
-		printf("0%d:\n", output);
 	}
-	while (hours < 59)
-	{
-		int output = hours;
-		hours++;
-		printf("%d:\n", output);
-	}
-}	
+}
