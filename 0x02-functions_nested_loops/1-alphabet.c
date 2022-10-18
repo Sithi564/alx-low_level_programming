@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * print_alphabet
  * Return: 0
@@ -11,8 +11,8 @@ void print_alphabet(void)
 
 	while (i <= 'z')
 	{
-		_putchar(i);
+		putchar(i);
 		i++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
