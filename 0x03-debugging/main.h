@@ -3,4 +3,4 @@
  * returns number sign
  */
 
-void positive_or_negative(int);
+void postitive_or_negative(int);
