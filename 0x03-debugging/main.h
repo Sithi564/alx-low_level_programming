@@ -1,4 +1,4 @@
-#if !defined(MAIN_H)
+#ifndef MAIN_H
 #define MAIN_H
 
 /**
@@ -8,4 +8,4 @@
 
 void positive_or_negative(int);
 
-#endif  /* !defined(MAIN_H) */
+#endif  /* !defined(alx_low_level_ptogramming... 0x02-debugging) */
