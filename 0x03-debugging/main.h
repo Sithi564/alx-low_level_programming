@@ -20,6 +20,6 @@ int largest_number(int a, int b, int c);
  * returns current day in a year as well as the number of days remaining in said year.
  */
 
-print_remaining_days();
+void print_remaining_days(int month, int day, int year);
 
 #endif  /* !defined(alx_low_level_ptogramming... 0x02-debugging) */
