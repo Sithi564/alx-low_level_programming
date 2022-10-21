@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * @brief - counts from 1-100 Fizzbuzz
+ * 
+ * @return int 
+ */
 int main(void)
 {
 	int i;
