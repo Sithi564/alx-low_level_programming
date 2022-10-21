@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * @brief print_most_numbers - prints numbers 0 - 9
+ * 
+ */
+
 void print_most_numbers(void)
 {
 	int i;
