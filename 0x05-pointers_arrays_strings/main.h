@@ -32,4 +32,13 @@ int _strlen(char *s);
  */
 void _puts(char *str);
 
+/**
+ * @brief Prints a string in reverse
+ * 
+ * @param s: string to be printed
+ * @return: always return 0
+ */
+
+void print_rev(char *s);
+
 #endif
