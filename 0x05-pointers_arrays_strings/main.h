@@ -55,4 +55,11 @@ void rev_string(char *s);
  */
 void puts2(char *str);
 
+/**
+ * @brief print half a string
+ * 
+ * @param str string to be printed
+ */
+void puts_half(char *str);
+
 #endif
