@@ -48,4 +48,11 @@ void print_rev(char *s);
  */
 void rev_string(char *s);
 
+/**
+ * @brief prints every other character of a string from the first str
+ * 
+ * @param str string to be printed
+ */
+void puts2(char *str);
+
 #endif
