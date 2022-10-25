@@ -25,4 +25,11 @@ void swap_int(int *a, int *b);
 
 int _strlen(char *s);
 
+/**
+ * _puts - prints str to stdout
+ * 
+ * @param str contains string to be uotput
+ */
+void _puts(char *str);
+
 #endif
