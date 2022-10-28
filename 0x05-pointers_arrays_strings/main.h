@@ -62,4 +62,21 @@ void puts2(char *str);
  */
 void puts_half(char *str);
 
+/**
+ * print_array: prints n elements of an array of integers, followed by a new line.
+ * 
+ * @param a pointer
+ * @param n elements to be printed
+ */
+void print_array(int *a, int n);
+
+/**
+ * @brief copies string to buffer
+ * 
+ * @param dest copy to here
+ * @param src copy string from here
+ * @return char* 
+ */
+char *_strcpy(char *dest, char *src);
+
 #endif
